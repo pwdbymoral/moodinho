@@ -1,0 +1,13 @@
+.header {
+    background-color: #863883;
+}
+
+.header__title {
+    color: #AEFF87;
+    font-size: 3rem;
+}
+
+.header__legend {
+    color: #E2FFD4;
+    font-style: italic;
+}

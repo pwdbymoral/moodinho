@@ -1,0 +1,15 @@
+.form {
+
+}
+
+fieldset {
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    border: thick double #863883;
+    margin-top: .5rem;
+}
+
+.form__submit {
+    border-radius: 10px;
+    margin-top: 5px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>moodinho - seu moodtracker online</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Spectral:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/style.css'>
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    <header class="header container">
+        <h1 class="header__title">moodinho</h1>
+        <h2 class="header__legend">o seu moodtracker</h2>
+    </header>
+
+    <main class="container">
+        <form action="" class="form">
+            <fieldset class="form__mood">
+                <legend>Como você se sentiu hoje?</legend>
+                <div>
+                    <input type="radio" id="happy" name="mood" value="happy"     checked>
+                    <label for="happy">😁</label>
+                </div>
+    
+                <div>
+                    <input type="radio" id="bored" name="mood" value="bored">
+                    <label for="bored">🫤</label>
+                </div>
+                
+                <div>
+                    <input type="radio" id="sad" name="mood" value="sad">
+                    <label for="sad">😭</label>
+                </div>
+            </fieldset>
+
+            <fieldset class="form__shower">
+                <legend>Banhou hoje?</legend>
+                
+                <div>
+                    <input type="radio" id="yes" name="shower" value="yes"     checked>
+                    <label for="yes">👍</label>
+                </div>
+    
+                <div>
+                    <input type="radio" id="no" name="shower" value="no">
+                    <label for="no">👎</label>
+                </div>
+
+            </fieldset>
+            <input type="submit" value="Enviar" class="form__submit">
+        </form>
+    </main>
+</body>
+</html>
